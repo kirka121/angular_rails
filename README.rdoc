@@ -1,0 +1,6 @@
+Rails 4 seed project to integrate Angular.js
+
+goal is for Rails to take care of routing, helpers and primary application logic. For Angular, it is to handle client-side interactions, dynamic bindings, ajax requests and presentation logic.
+
+using;
+http://alexpotrykus.com/blog/2013/12/07/angularjs-with-rails-4-part-1/
