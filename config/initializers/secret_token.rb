@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-AngularRails::Application.config.secret_key_base = 'd325906b59bd933e6917a38b34971298a0c3c1c9074aaf1b7989604c08ad7a8b88db2a3a30fb244088d9e20fae4ec113394db93e70d6d99aabecc8d3e9cd8817'
+AngularCast::Application.config.secret_key_base = '4e22add13af41e524f88a497899989cca6bc18d59c658d079620634bf49f2f27ec2d8b54e47a9537facf795e5bc55825fe89b4f3ee191aa7daef0133c89fbf5d'

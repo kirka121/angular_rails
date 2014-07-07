@@ -1,8 +1,9 @@
-AngularRails::Application.routes.draw do
+AngularCast::Application.routes.draw do
+  root to: "home#index"
   scope :api do
-    resources :people, only: [:index], defaults: {formal: :json}
+    get "/screencasts(.:format)" => "screencasts#index"
+    get "/screencasts/:id(.:format)" => "screencasts#show"
   end
-  root "static#index"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

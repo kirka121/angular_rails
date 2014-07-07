@@ -1,14 +1,17 @@
 <!DOCTYPE html>
-<html ng-app='AngularApp'>
+<html ng-app="AngularCasts">
 <head>
-  <title>AngularRails</title>
-  <%= stylesheet_link_tag    "application", media: "all" %>
-  <%= javascript_include_tag "application"%>
+  <title>Angular Casts</title>
+  <%= stylesheet_link_tag "application", media: "all" %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+	<header>Angular Casts </header>
 
-<%= yield %>
+  <%= yield %>
 
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.6/angular.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.6/angular-resource.min.js"></script>
+  <%= javascript_include_tag "application" %>
 </body>
 </html>

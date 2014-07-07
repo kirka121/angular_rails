@@ -1,8 +1,28 @@
-Rails 4 seed project to integrate Angular.js
+== README
 
-goal is for Rails to take care of routing, helpers and primary application logic. For Angular, it is to handle client-side interactions, dynamic bindings, ajax requests and presentation logic.
+This README would normally document whatever steps are necessary to get the
+application up and running.
 
-using;
-http://alexpotrykus.com/blog/2013/12/07/angularjs-with-rails-4-part-1/
-http://www.littlelines.com/blog/2014/02/21/how_to_use_angularjs_and_keep_loving_rails/
-https://coderwall.com/p/q_8djq
+Things you may want to cover:
+
+* Ruby version
+
+* System dependencies
+
+* Configuration
+
+* Database creation
+
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...
+
+
+Please feel free to use a different markup language if you do not plan to run
+<tt>rake doc:app</tt>.
