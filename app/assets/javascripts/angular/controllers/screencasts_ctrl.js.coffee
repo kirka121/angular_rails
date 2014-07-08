@@ -1,3 +1,3 @@
-App.controller 'ScreencastsCtrl', ['$scope', ($scope) ->
-  $scope.message = "Angular Rocks!"
+App.controller 'ScreencastsCtrl', ['$scope', 'Screencast', ($scope, Screencast) ->
+  $scope.screencasts = Screencast.query()
 ]

@@ -6,5 +6,11 @@
 </div>
 
 <div ng-controller="ScreencastsCtrl">
-	<h1>Message: {{message}}</h1>
+  <div id="screencast-list-container">
+    <ul>
+      <li ng-repeat="screencast in screencasts">
+        <h3>{{screencast.title}} <small>({{screencast.duration}})</small></h3>
+      </li>
+    </ul>
+  </div>
 </div>
