@@ -20,6 +20,8 @@ gem 'therubyracer', platforms: :ruby
 
 gem 'devise'
 
+gem 'bootstrap-sass'
+
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 
