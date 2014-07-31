@@ -1,14 +1,17 @@
-<div class="container">
+<div class="login_form_container">
 	<%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
 
 	<div class="header">
 		<% if devise_mapping.rememberable? -%>
-			<div class="remember_label"><%= f.check_box :remember_me %> <%= f.label :remember_me %></div>
-		<% end -%>
-		<div class="right_align">
-			<%= render "devise/shared/links" %>
+			<div id="left"><%= f.check_box :remember_me %> </div>
+		<% end %>
+		<div id="right">
+			 | <%= render "devise/shared/links" %>
 		</div>
+		<div id="center"><span id="remember_me_text">remember me</span></div>
+		<div id="clear-both"></div>
 	</div>
+
 	<div class="login_form">
 		<%= f.email_field :email, autofocus: true, class: "user_input", placeholder: 'email' %>
 		<br/>
